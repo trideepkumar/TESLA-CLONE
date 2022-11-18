@@ -1,0 +1,152 @@
+
+body{
+    color: #171a20;
+    font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    height:700vh;
+}
+
+
+
+
+header{
+    display: grid;
+    grid-template-columns:auto 1fr auto;
+    padding: 5px 20px;
+    position: fixed;
+}
+a.logo{
+    height: 12px;
+    width: 100px;
+}
+header a{
+    color: inherit;
+}
+header nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    
+}
+header nav.headcenter{
+    text-align: justify;
+    padding-left: 142px;
+}
+header nav.headcenter a:hover{
+    background-color: rgba(0,0,0,.075);
+    border-radius: 5px;
+}
+header nav.headright{
+    padding-left:150px;
+}
+header nav.headright a:hover{
+    background-color: rgba(0,0,0,.075);
+    border-radius: 5px;
+}
+
+
+
+
+section{
+    height: 100vh;
+    border: none;
+    background-size: cover;
+    background-position: center center;  
+    padding-bottom: 15vh;
+
+}
+section .content{
+    width:300px;
+    height:75vh;
+    padding-top: 15vh;
+    padding-bottom: 180vh;
+    padding-left: 50vh;
+    text-align: center;
+    display:grid;
+    grid-template-rows:min-content auto min-content;
+    font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;
+
+    
+}
+section h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+section a{
+    color: inherit;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+
+section  .buttons {
+    display: grid;  
+    width: 550px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    max-width: 700px;
+    text-align: center;
+    
+    
+}
+section .buttons a:first-child{
+    background-color: #444;
+    color: #fff;
+    text-align:center;
+    padding-left: 100px;
+    
+    
+}
+section .buttons a{
+    display:block;
+    background-color: #eee ;
+    color: inherit;
+    padding: 12px 50px ;
+    padding-left: 100px;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 549px;
+    text-align: center;
+
+}
+section .content1{
+    height: 100vh;
+    display: grid;
+    padding-left: 550px;
+    padding-top: 190px;
+}
+section .content1 a{
+    
+    width: 250px;
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    padding-left: 360px;
+    padding-bottom:100px;
+    display: inline-block;
+    text-align: center;
+
+    
+}
+
+
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color:rgb(80, 80, 80) ;
+    padding: 10px;
+    font-weight: light;
+    font-size: 14px;
+    
+    
+}
